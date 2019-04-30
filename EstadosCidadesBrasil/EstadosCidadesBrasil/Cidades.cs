@@ -658,6 +658,78 @@ namespace EstadosCidadesBrasil
             };
 
             return cb;
-        }        
+        }
+
+        /// <summary>
+        /// Retorna em um componente ComboBox a lista de cidades pertencentes ao estado do Mato Grosso.
+        /// </summary>
+        /// <param name="cb">Componente ComboBox que receberá o retorno das cidades.</param>
+        public virtual ComboBox MatoGrosso(ComboBox cb)
+        {
+            citiesOfBrazil = new string[]
+            {
+                "Acorizal", "Água Boa", "Alta Floresta", "Alto Araguaia",
+                "Alto Boa Vista", "Alto Garças", "Alto Paraguai", "Alto Taquari",
+                "Apiacás", "Araguaiana", "Araguainha", "Araputanga",
+                "Arenápolis", "Aripuanã",
+
+                "Barão de Melgaço", "Barra do Bugres", "Barra do Garças",
+                "Bom Jesus do Araguaia", "Brasnorte",
+
+                "Cáceres", "Campinápolis", "Campo Novo do Parecis", "Campo Verde",
+                "Campos de Júlio", "Canabrava do Norte", "Canarana", "Carlinda",
+                "Castanheira", "Chapada dos Guimarães", "Cláudia", "Cocalinho",
+                "Colíder", "Colniza", "Comodoro", "Confresa", "Conquista DOeste",
+                "Cotriguaçu", "Cuiabá", "Curvelândia",
+
+                "Denise", "Diamantino", "Dom Aquino",
+
+                "Feliz Natal", "Figueirópolis DOeste",
+
+                "Gaúcha do Norte", "General Carneiro", "Glória DOeste",
+                "Guarantã do Norte", "Guiratinga",
+
+                "Indiavaí", "Ipiranga do Norte", "Itanhangá",
+                "Itaúba", "Itiquira",
+
+                "Jaciara", "Jangada", "Jauru", "Juara",
+                "Juína", "Juruena", "Juscimeira",
+
+                "Lambari DOeste", "Lucas do Rio Verde", "Luciara",
+
+                "Marcelândia", "Matupá", "Mirassol DOeste",
+
+                "Nobres", "Nortelândia", "Nossa Senhora do Livramento", "Nova Bandeirantes",
+                "Nova Brasilândia", "Nova Canaã do Norte", "Nova Guarita", "Nova Lacerda",
+                "Nova Marilândia", "Nova Maringá", "Nova Monte Verde", "Nova Mutum",
+                "Nova Nazaré", "Nova Olímpia", "Nova Santa Helena", "Nova Ubiratã",
+                "Nova Xavantina", "Novo Horizonte do Norte", "Novo Mundo",
+                "Novo Santo Antônio", "Novo São Joaquim",
+
+                "Paranaíta", "Paranatinga", "Pedra Preta", "Peixoto de Azevedo", "Planalto da Serra",
+                "Poconé", "Pontal do Araguaia", "Ponte Branca", "Pontes e Lacerda", 
+                "Porto Alegre do Norte", "Porto dos Gaúchos", "Porto Esperidião",
+                "Porto Estrela", "Poxoréo", "Primavera do Leste",
+
+                "Querência",
+
+                "Reserva do Cabaçal", "Ribeirão Cascalheira", "Ribeirãozinho",
+                "Rio Branco", "Rondolândia", "Rondonópolis", "Rosário Oeste",
+
+                "Salto do Céu", "Santa Carmem", "Santa Cruz do Xingu", "Santa Rita do Trivelato", "Santa Terezinha",
+                "Santo Afonso", "Santo Antônio do Leste", "Santo Antônio do Leverger", "São Félix do Araguaia",
+                "São José do Povo", "São José do Rio Claro", "São José do Xingu", "São José dos Quatro Marcos",
+                "São Pedro da Cipa", "Sapezal", "Serra Nova Dourada", "Sinop", "Sorriso",
+
+                "Tabaporã", "Tangará da Serra", "Tapurah", "Terra Nova do Norte", "Tesouro", "Torixoréu",
+
+                "União do Sul",
+
+                "Vale de São Domingos", "Várzea Grande", "Vera",
+                "Vila Bela da Santíssima Trindade", "Vila Rica"
+            };
+
+            return cb;
+        }
     }
 }
