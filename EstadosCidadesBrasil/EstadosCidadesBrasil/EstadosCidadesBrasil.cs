@@ -83,6 +83,16 @@ namespace EstadosCidadesBrasil
         {
             return base.MatoGrossoDoSul(cb);
         }
+
+        public override ComboBox MinasGerais(ComboBox cb)
+        {
+            return base.MinasGerais(cb);
+        }
+
+        public override ComboBox Pará(ComboBox cb)
+        {
+            return base.Pará(cb);
+        }
     }
 
     public partial class EstadosDoBrasil : Estados
