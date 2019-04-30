@@ -394,5 +394,39 @@ namespace EstadosCidadesBrasil
 
             return cb;
         }
+
+        /// <summary>
+        /// Retorna em um componente ComboBox a lista de cidades pertencentes ao estado de Distrito Federal.
+        /// </summary>
+        /// <param name="cb">Componente ComboBox que receberá o retorno das cidades.</param>
+        public virtual ComboBox DistritoFederal(ComboBox cb)
+        {
+            citiesOfBrazil = new string[]
+            {
+               "Águas Claras",
+
+               "Brasília", "Brazlândia",
+
+               "Candangolândia", "Ceilândia", "Cruzeiro",
+
+               "Gama", "Guará",
+
+               "Itapoã",
+
+               "Núcleo Bandeirante",
+
+               "Paranoá", "Planaltina",
+
+               "Recanto das Emas", "Riacho Fundo",
+
+               "Samambaia", "Santa Maria", "São Sebastião", "Sobradinho",
+
+               "Taguatinga",
+
+               "Varjão"
+            };
+
+            return cb;
+        }
     }
 }
