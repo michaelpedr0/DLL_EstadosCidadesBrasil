@@ -28,6 +28,61 @@ namespace EstadosCidadesBrasil
         {
             return base.Acre(cb);
         }
+
+        public override ComboBox Alagoas(ComboBox cb)
+        {
+            return base.Alagoas(cb);
+        }
+
+        public override ComboBox Amapá(ComboBox cb)
+        {
+            return base.Amapá(cb);
+        }
+
+        public override ComboBox Amazonas(ComboBox cb)
+        {
+            return base.Amazonas(cb);
+        }
+
+        public override ComboBox Bahia(ComboBox cb)
+        {
+            return base.Bahia(cb);
+        }
+
+        public override ComboBox Ceará(ComboBox cb)
+        {
+            return base.Ceará(cb);
+        }
+
+        public override ComboBox DistritoFederal(ComboBox cb)
+        {
+            return base.DistritoFederal(cb);
+        }
+
+        public override ComboBox EspíritoSanto(ComboBox cb)
+        {
+            return base.EspíritoSanto(cb);
+        }
+
+        public override ComboBox Goiás(ComboBox cb)
+        {
+            return base.Goiás(cb);
+        }
+
+        public override ComboBox Maranhão(ComboBox cb)
+        {
+            return base.Maranhão(cb);
+        }
+
+        public override ComboBox MatoGrosso(ComboBox cb)
+        {
+            return base.MatoGrosso(cb);
+        }
+
+        public override ComboBox MatoGrossoDoSul(ComboBox cb)
+        {
+            return base.MatoGrossoDoSul(cb);
+        }
     }
 
     public partial class EstadosDoBrasil : Estados
