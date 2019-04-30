@@ -115,5 +115,41 @@ namespace EstadosCidadesBrasil
 
             return cb;
         }
+
+        /// <summary>
+        /// Retorna em um componente ComboBox a lista de cidades pertencentes ao estado do Amapá.
+        /// </summary>
+        /// <param name="cb">Componente ComboBox que receberá o retorno das cidades.</param>
+        public virtual ComboBox Amapá(ComboBox cb)
+        {
+            citiesOfBrazil = new string[]
+            {
+                "Amapá",
+
+                "Calçoene", "Cutias",
+
+                "Ferreira Gomes",
+
+                "Itaubal",
+
+                "Laranjal do Jari",
+
+                "Macapá", "Mazagão",
+
+                "Oiapoque",
+
+                "Pedra Branca do Amapari", "Porto Grande", "Pracuúba",
+
+                "Santana", "Serra do Navio",
+
+                "Tartarugalzinho",
+
+                "Vitória do Jari"
+            };
+
+            cb.Items.AddRange(citiesOfBrazil);
+
+            return cb;
+        }        
     }
 }
