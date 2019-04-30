@@ -24,7 +24,10 @@ namespace EstadosCidadesBrasil
 
     public partial class CidadesDosEstadosDoBrasil : Cidades
     {
-
+        public override ComboBox Acre(ComboBox cb)
+        {
+            return base.Acre(cb);
+        }
     }
 
     public partial class EstadosDoBrasil : Estados
