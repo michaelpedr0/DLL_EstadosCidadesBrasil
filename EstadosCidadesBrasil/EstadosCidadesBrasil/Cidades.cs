@@ -150,6 +150,58 @@ namespace EstadosCidadesBrasil
             cb.Items.AddRange(citiesOfBrazil);
 
             return cb;
-        }        
+        }
+
+        /// <summary>
+        /// Retorna em um componente ComboBox a lista de cidades pertencentes ao estado do Amazonas.
+        /// </summary>
+        /// <param name="cb">Componente ComboBox que receberá o retorno das cidades.</param>
+        public virtual ComboBox Amazonas(ComboBox cb)
+        {
+            citiesOfBrazil = new string[]
+            {
+                "Alvarães", "Amaturá", "Anamã", "Anori",
+                "Apuí", "Atalaia do Norte", "Autazes",
+
+                "Barcelos", "Barreirinha", "Benjamin Constant", "Beruri",
+                "Boa Vista do Ramos", "Boca do Acre", "Borba",
+
+                "Caapiranga", "Canutama", "Carauari",
+                "Careiro", "Careiro da Várzea", "Coari", "Codajás",
+
+                "Eirunepé", "Envira",
+
+                "Fonte Boa",
+
+                "Guajará",
+
+                "Humaitá",
+
+                "Ipixuna", "Iranduba", "Itacoatiara", "Itamarati", "Itapiranga",
+
+                "Japurá", "Juruá", "Jutaí",
+
+                "Lábrea",
+
+                "Manacapuru", "Manaquiri", "Manaus", "Manicoré", "Maraã", "Maués",
+
+                "Nhamundá", "Nova Olinda do Norte", "Novo Airão", "Novo Aripuanã",
+
+                "Parintins", "Pauini", "Presidente Figueiredo",
+
+                "Rio Preto da Eva",
+
+                "Santa Isabel do Rio Negro", "Santo Antônio do Içá", "São Gabriel da Cachoeira",
+                "São Paulo de Olivença", "São Sebastião do Uatumã", "Silves",
+
+                "Tabatinga", "Tapauá", "Tefé", "Tonantins",
+
+                "Uarini", "Urucará", "Urucurituba"
+            };
+
+            cb.Items.AddRange(citiesOfBrazil);
+
+            return cb;
+        }
     }
 }
